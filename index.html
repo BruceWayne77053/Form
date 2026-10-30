@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Registration</h1>
+    <form>
+        Name: <input type="text" name="txt"/>
+        <br/>
+        Email: <input type="email" name="txtemail" required/>
+        <br/>
+        Date of birth: <input type="date" name="txt" required/>
+        <br/>
+        Gender: <input type="radio" name="gender" value="male"> Male
+        <!-- <br/> -->
+        <input type="radio" name="gender" value="female"> Female
+        <br/>
+        City: <select name="cmbcity" required>
+            <option disabled selected>--Select--</option>
+            <option value="PK">Quetta</option>
+            <option value="IN">Lahore</option>
+            <option value="AU">Islamabad</option>
+            <option value="US">Multan</option>
+        </select>
+        <br/>
+        Subjects: <input type="checkbox" name="chk1" value="maths"/>Maths
+        <input type="checkbox" name="chk2" value="urdu"/>urdu
+        <input type="checkbox" name="chk3" value="eng"/>Chemistry
+        <input type="checkbox" name="chk4" value="phy"/>physics
+        <br/>
+        <button>Submit</button>
+
+    </form>
+    
+    
+</body>
+</html>
